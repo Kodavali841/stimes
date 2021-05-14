@@ -1,1 +1,1 @@
-web: gunicorn times.times.wsgi --log-file -
+web: gunicorn --pythonpath times/src times.times.wsgi --log-file -
