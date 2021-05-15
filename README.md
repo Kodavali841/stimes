@@ -34,6 +34,7 @@ $ pip install -r requirements.txt
 
 ##### Running the server
 ```bash
+$ cd times
 $ python manage.py runserver
 ```
 ### FOR WINDOWS:
@@ -55,5 +56,6 @@ $ python manage.py runserver
 
 ##### Running the server
 ```bash
+> cd times
 > python manage.py runserver
 ```
