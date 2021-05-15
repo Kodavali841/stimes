@@ -43,6 +43,7 @@ jobs:
         python3 manage.py test
     - name: Coverage report
       run: |
+        cd times
         pip install coverage
         coverage run manage.py test
         coverage report
